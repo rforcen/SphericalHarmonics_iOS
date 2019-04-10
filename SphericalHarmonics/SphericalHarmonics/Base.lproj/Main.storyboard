@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="K2v-8E-xPn">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="2kz-0M-cZy">
+            <objects>
+                <viewController id="K2v-8E-xPn" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ETJ-rA-TCh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ON1-np-UCl">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </sceneKitView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wz1-7b-Kce">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                <items>
+                                    <barButtonItem title="random" image="dice.png" id="ClS-qM-sw9">
+                                        <connections>
+                                            <action selector="onRandom:" destination="K2v-8E-xPn" id="N3u-3F-Ltv"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="list" image="graph.png" id="vAO-zy-1ml">
+                                        <connections>
+                                            <action selector="onList:" destination="K2v-8E-xPn" id="WKF-9r-gc5"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="shot" image="photo-camera.png" id="0o8-Ig-IGJ">
+                                        <connections>
+                                            <action selector="onShot:" destination="K2v-8E-xPn" id="vyw-QT-OUE"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" id="PEa-p4-sFy">
+                                        <stepper key="customView" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="25" id="rbv-2B-ugO">
+                                            <rect key="frame" x="137" y="7.5" width="94" height="29"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <connections>
+                                                <action selector="onStepper:" destination="K2v-8E-xPn" eventType="valueChanged" id="4b3-ta-Bbp"/>
+                                            </connections>
+                                        </stepper>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <collectionView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="b1s-6j-hkB">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="iE1-m6-zYY">
+                                    <size key="itemSize" width="91" height="109"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="codeCell" id="Cxk-Cx-PnZ" customClass="CodesCollectionCollectionViewCell">
+                                        <rect key="frame" x="0.0" y="0.0" width="91" height="109"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="91" height="109"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nix-0D-gJx">
+                                                    <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00000000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UFI-9f-aUB">
+                                                    <rect key="frame" x="0.0" y="90" width="90" height="19"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                                    <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="11"/>
+                                                    <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <connections>
+                                            <outlet property="imageCell" destination="Nix-0D-gJx" id="xGZ-Hz-jXd"/>
+                                            <outlet property="lCode" destination="UFI-9f-aUB" id="lsc-32-cdv"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="K2v-8E-xPn" id="ioe-An-OFB"/>
+                                    <outlet property="delegate" destination="K2v-8E-xPn" id="DWP-ku-b5L"/>
+                                </connections>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00000000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dM8-4j-Sgf">
+                                <rect key="frame" x="236" y="34" width="134" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="9"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="rbQ-8R-jYm"/>
+                    </view>
+                    <connections>
+                        <outlet property="codesCollectionView" destination="b1s-6j-hkB" id="Uy7-0x-K1g"/>
+                        <outlet property="labelCode" destination="dM8-4j-Sgf" id="A4L-hn-BBE"/>
+                        <outlet property="scene" destination="ON1-np-UCl" id="DvV-ui-SV7"/>
+                        <outlet property="stepper" destination="rbv-2B-ugO" id="r4K-BM-mVX"/>
+                        <outlet property="toolBar" destination="wz1-7b-Kce" id="nf4-PK-eqP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MeT-Os-KMM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="877.60000000000002" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dice.png" width="32" height="32"/>
+        <image name="graph.png" width="32" height="32"/>
+        <image name="photo-camera.png" width="32" height="32"/>
+    </resources>
+</document>

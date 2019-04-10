@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E3A51332165151B009AE6DE /* VectUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A51322165151B009AE6DE /* VectUtils.c */; };
+		4E3A7E37216A18D000B21AAA /* Geo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A7E36216A18D000B21AAA /* Geo.m */; };
+		4E49FF67216CACB4003B8620 /* voicesync-logo167.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E49FF66216CACB4003B8620 /* voicesync-logo167.png */; };
+		4E728BCB2166384E00FE80FC /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E728BCA2166384E00FE80FC /* Common.m */; };
+		4E87D4042165FA9300D94FC2 /* SHCodes.c in Sources */ = {isa = PBXBuildFile; fileRef = 4E87D4032165FA9300D94FC2 /* SHCodes.c */; };
+		4E89C81021675A050065BD01 /* SCNUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E89C80F21675A050065BD01 /* SCNUtils.m */; };
+		4E9841192164C36800F177C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9841182164C36800F177C6 /* AppDelegate.m */; };
+		4E98411C2164C36800F177C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E98411B2164C36800F177C6 /* ViewController.m */; };
+		4E98411F2164C36800F177C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E98411D2164C36800F177C6 /* Main.storyboard */; };
+		4E9841212164C36900F177C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E9841202164C36900F177C6 /* Assets.xcassets */; };
+		4E9841242164C36900F177C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E9841222164C36900F177C6 /* LaunchScreen.storyboard */; };
+		4E9841272164C36900F177C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9841262164C36900F177C6 /* main.m */; };
+		4E9841342164C42600F177C6 /* SphericalHarmonics.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9841332164C42600F177C6 /* SphericalHarmonics.m */; };
+		4E9841452164D27400F177C6 /* voicesync-logo.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4E9841362164D27400F177C6 /* voicesync-logo.icns */; };
+		4E9841462164D27400F177C6 /* voicesync-logo120.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E9841372164D27400F177C6 /* voicesync-logo120.png */; };
+		4E9841472164D27400F177C6 /* note.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E9841382164D27400F177C6 /* note.png */; };
+		4E9841482164D27400F177C6 /* voicesync-logo1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E9841392164D27400F177C6 /* voicesync-logo1024.png */; };
+		4E9841492164D27400F177C6 /* clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E98413A2164D27400F177C6 /* clear.png */; };
+		4E98414A2164D27400F177C6 /* voicesync-logo58.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E98413B2164D27400F177C6 /* voicesync-logo58.png */; };
+		4E98414B2164D27400F177C6 /* voicesync-logo152.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E98413C2164D27400F177C6 /* voicesync-logo152.png */; };
+		4E98414C2164D27400F177C6 /* voicesync-logo180.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E98413D2164D27400F177C6 /* voicesync-logo180.png */; };
+		4E98414D2164D27400F177C6 /* voicesync-logo76.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E98413E2164D27400F177C6 /* voicesync-logo76.png */; };
+		4E98414E2164D27400F177C6 /* graph.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E98413F2164D27400F177C6 /* graph.png */; };
+		4E98414F2164D27400F177C6 /* dice.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E9841402164D27400F177C6 /* dice.png */; };
+		4E9841502164D27400F177C6 /* sort.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E9841412164D27400F177C6 /* sort.png */; };
+		4E9841512164D27400F177C6 /* VS_Logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4E9841422164D27400F177C6 /* VS_Logo.gif */; };
+		4E9841522164D27400F177C6 /* play-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E9841432164D27400F177C6 /* play-button.png */; };
+		4E9841532164D27400F177C6 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E9841442164D27400F177C6 /* refresh.png */; };
+		4EAFB20A2166210300718629 /* CodesCollectionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAFB2092166210300718629 /* CodesCollectionCollectionViewCell.m */; };
+		4EAFB20D2166220D00718629 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAFB20C2166220D00718629 /* CollectionViewController.m */; };
+		4EEFC561216B45CD0078D386 /* options.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EEFC560216B45CC0078D386 /* options.png */; };
+		4EEFC563216B4FB80078D386 /* photo-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EEFC562216B4FB80078D386 /* photo-camera.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E3A51312165151B009AE6DE /* VectUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VectUtils.h; sourceTree = "<group>"; };
+		4E3A51322165151B009AE6DE /* VectUtils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = VectUtils.c; sourceTree = "<group>"; };
+		4E3A7E35216A18D000B21AAA /* Geo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Geo.h; sourceTree = "<group>"; };
+		4E3A7E36216A18D000B21AAA /* Geo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Geo.m; sourceTree = "<group>"; };
+		4E49FF66216CACB4003B8620 /* voicesync-logo167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voicesync-logo167.png"; sourceTree = "<group>"; };
+		4E728BC92166384E00FE80FC /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		4E728BCA2166384E00FE80FC /* Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		4E87D4022165FA9300D94FC2 /* SHCodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHCodes.h; sourceTree = "<group>"; };
+		4E87D4032165FA9300D94FC2 /* SHCodes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SHCodes.c; sourceTree = "<group>"; };
+		4E89C80E21675A050065BD01 /* SCNUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCNUtils.h; sourceTree = "<group>"; };
+		4E89C80F21675A050065BD01 /* SCNUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCNUtils.m; sourceTree = "<group>"; };
+		4E9841142164C36800F177C6 /* SphericalHarmonics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SphericalHarmonics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E9841172164C36800F177C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E9841182164C36800F177C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E98411A2164C36800F177C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E98411B2164C36800F177C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E98411E2164C36800F177C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E9841202164C36900F177C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E9841232164C36900F177C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E9841252164C36900F177C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E9841262164C36900F177C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E98412E2164C39400F177C6 /* PlatoPoly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlatoPoly.m; sourceTree = "<group>"; };
+		4E98412F2164C39400F177C6 /* PlatoPoly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlatoPoly.h; sourceTree = "<group>"; };
+		4E9841322164C42600F177C6 /* SphericalHarmonics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SphericalHarmonics.h; sourceTree = "<group>"; };
+		4E9841332164C42600F177C6 /* SphericalHarmonics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SphericalHarmonics.m; sourceTree = "<group>"; };
+		4E9841362164D27400F177C6 /* voicesync-logo.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "voicesync-logo.icns"; sourceTree = "<group>"; };
+		4E9841372164D27400F177C6 /* voicesync-logo120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voicesync-logo120.png"; sourceTree = "<group>"; };
+		4E9841382164D27400F177C6 /* note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note.png; sourceTree = "<group>"; };
+		4E9841392164D27400F177C6 /* voicesync-logo1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voicesync-logo1024.png"; sourceTree = "<group>"; };
+		4E98413A2164D27400F177C6 /* clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clear.png; sourceTree = "<group>"; };
+		4E98413B2164D27400F177C6 /* voicesync-logo58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voicesync-logo58.png"; sourceTree = "<group>"; };
+		4E98413C2164D27400F177C6 /* voicesync-logo152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voicesync-logo152.png"; sourceTree = "<group>"; };
+		4E98413D2164D27400F177C6 /* voicesync-logo180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voicesync-logo180.png"; sourceTree = "<group>"; };
+		4E98413E2164D27400F177C6 /* voicesync-logo76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voicesync-logo76.png"; sourceTree = "<group>"; };
+		4E98413F2164D27400F177C6 /* graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graph.png; sourceTree = "<group>"; };
+		4E9841402164D27400F177C6 /* dice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice.png; sourceTree = "<group>"; };
+		4E9841412164D27400F177C6 /* sort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sort.png; sourceTree = "<group>"; };
+		4E9841422164D27400F177C6 /* VS_Logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = VS_Logo.gif; sourceTree = "<group>"; };
+		4E9841432164D27400F177C6 /* play-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-button.png"; sourceTree = "<group>"; };
+		4E9841442164D27400F177C6 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		4EAFB2082166210300718629 /* CodesCollectionCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodesCollectionCollectionViewCell.h; sourceTree = "<group>"; };
+		4EAFB2092166210300718629 /* CodesCollectionCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodesCollectionCollectionViewCell.m; sourceTree = "<group>"; };
+		4EAFB20B2166220D00718629 /* CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		4EAFB20C2166220D00718629 /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		4EEFC560216B45CC0078D386 /* options.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = options.png; sourceTree = "<group>"; };
+		4EEFC562216B4FB80078D386 /* photo-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-camera.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E9841112164C36800F177C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E98410B2164C36800F177C6 = {
+			isa = PBXGroup;
+			children = (
+				4E9841162164C36800F177C6 /* SphericalHarmonics */,
+				4E9841152164C36800F177C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E9841152164C36800F177C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E9841142164C36800F177C6 /* SphericalHarmonics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E9841162164C36800F177C6 /* SphericalHarmonics */ = {
+			isa = PBXGroup;
+			children = (
+				4EAFB20E2166255300718629 /* Collection */,
+				4E9841352164D27400F177C6 /* resources */,
+				4E98412D2164C38700F177C6 /* vs */,
+				4E9841172164C36800F177C6 /* AppDelegate.h */,
+				4E9841182164C36800F177C6 /* AppDelegate.m */,
+				4E728BC92166384E00FE80FC /* Common.h */,
+				4E728BCA2166384E00FE80FC /* Common.m */,
+				4E98411A2164C36800F177C6 /* ViewController.h */,
+				4E98411B2164C36800F177C6 /* ViewController.m */,
+				4E9841202164C36900F177C6 /* Assets.xcassets */,
+				4E9841252164C36900F177C6 /* Info.plist */,
+				4E9841262164C36900F177C6 /* main.m */,
+				4E9841222164C36900F177C6 /* LaunchScreen.storyboard */,
+				4E98411D2164C36800F177C6 /* Main.storyboard */,
+			);
+			path = SphericalHarmonics;
+			sourceTree = "<group>";
+		};
+		4E98412D2164C38700F177C6 /* vs */ = {
+			isa = PBXGroup;
+			children = (
+				4E3A51312165151B009AE6DE /* VectUtils.h */,
+				4E3A51322165151B009AE6DE /* VectUtils.c */,
+				4E98412F2164C39400F177C6 /* PlatoPoly.h */,
+				4E98412E2164C39400F177C6 /* PlatoPoly.m */,
+				4E89C80E21675A050065BD01 /* SCNUtils.h */,
+				4E89C80F21675A050065BD01 /* SCNUtils.m */,
+				4E9841322164C42600F177C6 /* SphericalHarmonics.h */,
+				4E9841332164C42600F177C6 /* SphericalHarmonics.m */,
+				4E3A7E35216A18D000B21AAA /* Geo.h */,
+				4E3A7E36216A18D000B21AAA /* Geo.m */,
+				4E87D4022165FA9300D94FC2 /* SHCodes.h */,
+				4E87D4032165FA9300D94FC2 /* SHCodes.c */,
+			);
+			path = vs;
+			sourceTree = "<group>";
+		};
+		4E9841352164D27400F177C6 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				4EA4F85F216E25C30011E505 /* logos */,
+				4EEFC562216B4FB80078D386 /* photo-camera.png */,
+				4EEFC560216B45CC0078D386 /* options.png */,
+				4E9841382164D27400F177C6 /* note.png */,
+				4E98413A2164D27400F177C6 /* clear.png */,
+				4E98413F2164D27400F177C6 /* graph.png */,
+				4E9841402164D27400F177C6 /* dice.png */,
+				4E9841412164D27400F177C6 /* sort.png */,
+				4E9841432164D27400F177C6 /* play-button.png */,
+				4E9841442164D27400F177C6 /* refresh.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		4EA4F85F216E25C30011E505 /* logos */ = {
+			isa = PBXGroup;
+			children = (
+				4E9841372164D27400F177C6 /* voicesync-logo120.png */,
+				4E49FF66216CACB4003B8620 /* voicesync-logo167.png */,
+				4E9841392164D27400F177C6 /* voicesync-logo1024.png */,
+				4E98413B2164D27400F177C6 /* voicesync-logo58.png */,
+				4E98413C2164D27400F177C6 /* voicesync-logo152.png */,
+				4E98413D2164D27400F177C6 /* voicesync-logo180.png */,
+				4E98413E2164D27400F177C6 /* voicesync-logo76.png */,
+				4E9841362164D27400F177C6 /* voicesync-logo.icns */,
+				4E9841422164D27400F177C6 /* VS_Logo.gif */,
+			);
+			path = logos;
+			sourceTree = "<group>";
+		};
+		4EAFB20E2166255300718629 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				4EAFB20B2166220D00718629 /* CollectionViewController.h */,
+				4EAFB20C2166220D00718629 /* CollectionViewController.m */,
+				4EAFB2082166210300718629 /* CodesCollectionCollectionViewCell.h */,
+				4EAFB2092166210300718629 /* CodesCollectionCollectionViewCell.m */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E9841132164C36800F177C6 /* SphericalHarmonics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E98412A2164C36900F177C6 /* Build configuration list for PBXNativeTarget "SphericalHarmonics" */;
+			buildPhases = (
+				4E9841102164C36800F177C6 /* Sources */,
+				4E9841112164C36800F177C6 /* Frameworks */,
+				4E9841122164C36800F177C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SphericalHarmonics;
+			productName = SphericalHarmonics;
+			productReference = 4E9841142164C36800F177C6 /* SphericalHarmonics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E98410C2164C36800F177C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = voicesync;
+				TargetAttributes = {
+					4E9841132164C36800F177C6 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 4E98410F2164C36800F177C6 /* Build configuration list for PBXProject "SphericalHarmonics" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E98410B2164C36800F177C6;
+			productRefGroup = 4E9841152164C36800F177C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E9841132164C36800F177C6 /* SphericalHarmonics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E9841122164C36800F177C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E9841522164D27400F177C6 /* play-button.png in Resources */,
+				4E9841242164C36900F177C6 /* LaunchScreen.storyboard in Resources */,
+				4E9841482164D27400F177C6 /* voicesync-logo1024.png in Resources */,
+				4E98414F2164D27400F177C6 /* dice.png in Resources */,
+				4E9841212164C36900F177C6 /* Assets.xcassets in Resources */,
+				4E9841492164D27400F177C6 /* clear.png in Resources */,
+				4E98411F2164C36800F177C6 /* Main.storyboard in Resources */,
+				4E9841532164D27400F177C6 /* refresh.png in Resources */,
+				4EEFC561216B45CD0078D386 /* options.png in Resources */,
+				4E9841462164D27400F177C6 /* voicesync-logo120.png in Resources */,
+				4E98414E2164D27400F177C6 /* graph.png in Resources */,
+				4E9841512164D27400F177C6 /* VS_Logo.gif in Resources */,
+				4E98414A2164D27400F177C6 /* voicesync-logo58.png in Resources */,
+				4E9841452164D27400F177C6 /* voicesync-logo.icns in Resources */,
+				4E49FF67216CACB4003B8620 /* voicesync-logo167.png in Resources */,
+				4E9841472164D27400F177C6 /* note.png in Resources */,
+				4E9841502164D27400F177C6 /* sort.png in Resources */,
+				4E98414D2164D27400F177C6 /* voicesync-logo76.png in Resources */,
+				4E98414C2164D27400F177C6 /* voicesync-logo180.png in Resources */,
+				4E98414B2164D27400F177C6 /* voicesync-logo152.png in Resources */,
+				4EEFC563216B4FB80078D386 /* photo-camera.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E9841102164C36800F177C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E98411C2164C36800F177C6 /* ViewController.m in Sources */,
+				4E9841272164C36900F177C6 /* main.m in Sources */,
+				4E728BCB2166384E00FE80FC /* Common.m in Sources */,
+				4E3A7E37216A18D000B21AAA /* Geo.m in Sources */,
+				4E9841192164C36800F177C6 /* AppDelegate.m in Sources */,
+				4E87D4042165FA9300D94FC2 /* SHCodes.c in Sources */,
+				4E9841342164C42600F177C6 /* SphericalHarmonics.m in Sources */,
+				4E3A51332165151B009AE6DE /* VectUtils.c in Sources */,
+				4E89C81021675A050065BD01 /* SCNUtils.m in Sources */,
+				4EAFB20A2166210300718629 /* CodesCollectionCollectionViewCell.m in Sources */,
+				4EAFB20D2166220D00718629 /* CollectionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E98411D2164C36800F177C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E98411E2164C36800F177C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E9841222164C36900F177C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E9841232164C36900F177C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E9841282164C36900F177C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E9841292164C36900F177C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E98412B2164C36900F177C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ALFNML2A4Q;
+				INFOPLIST_FILE = SphericalHarmonics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = voicesync.SphericalHarmonics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E98412C2164C36900F177C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ALFNML2A4Q;
+				INFOPLIST_FILE = SphericalHarmonics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = voicesync.SphericalHarmonics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E98410F2164C36800F177C6 /* Build configuration list for PBXProject "SphericalHarmonics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E9841282164C36900F177C6 /* Debug */,
+				4E9841292164C36900F177C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E98412A2164C36900F177C6 /* Build configuration list for PBXNativeTarget "SphericalHarmonics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E98412B2164C36900F177C6 /* Debug */,
+				4E98412C2164C36900F177C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E98410C2164C36800F177C6 /* Project object */;
+}
